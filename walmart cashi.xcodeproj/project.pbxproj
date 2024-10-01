@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FDAAA92CAC61780081FF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAA82CAC61780081FF19 /* AppDelegate.swift */; };
+		34FDAAAB2CAC61780081FF19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */; };
+		34FDAAAD2CAC61780081FF19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAAC2CAC61780081FF19 /* ViewController.swift */; };
+		34FDAAB02CAC61780081FF19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 34FDAAAF2CAC61780081FF19 /* Base */; };
+		34FDAAB32CAC61780081FF19 /* walmart_cashi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAB12CAC61780081FF19 /* walmart_cashi.xcdatamodeld */; };
+		34FDAAB52CAC617A0081FF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FDAAB42CAC617A0081FF19 /* Assets.xcassets */; };
+		34FDAAB82CAC617A0081FF19 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 34FDAAB72CAC617A0081FF19 /* Base */; };
+		34FDAAC32CAC617A0081FF19 /* walmart_cashiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAC22CAC617A0081FF19 /* walmart_cashiTests.swift */; };
+		34FDAACD2CAC617A0081FF19 /* walmart_cashiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAACC2CAC617A0081FF19 /* walmart_cashiUITests.swift */; };
+		34FDAACF2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FDAABF2CAC617A0081FF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FDAA9D2CAC61780081FF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FDAAA42CAC61780081FF19;
+			remoteInfo = "walmart cashi";
+		};
+		34FDAAC92CAC617A0081FF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FDAA9D2CAC61780081FF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FDAAA42CAC61780081FF19;
+			remoteInfo = "walmart cashi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34FDAAA52CAC61780081FF19 /* walmart cashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walmart cashi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FDAAA82CAC61780081FF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34FDAAAC2CAC61780081FF19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34FDAAAF2CAC61780081FF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34FDAAB22CAC61780081FF19 /* walmart_cashi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = walmart_cashi.xcdatamodel; sourceTree = "<group>"; };
+		34FDAAB42CAC617A0081FF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34FDAAB72CAC617A0081FF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34FDAAB92CAC617A0081FF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FDAABE2CAC617A0081FF19 /* walmart cashiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "walmart cashiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FDAAC22CAC617A0081FF19 /* walmart_cashiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_cashiTests.swift; sourceTree = "<group>"; };
+		34FDAAC82CAC617A0081FF19 /* walmart cashiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "walmart cashiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FDAACC2CAC617A0081FF19 /* walmart_cashiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_cashiUITests.swift; sourceTree = "<group>"; };
+		34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_cashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FDAAA22CAC61780081FF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAABB2CAC617A0081FF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAAC52CAC617A0081FF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FDAA9C2CAC61780081FF19 = {
+			isa = PBXGroup;
+			children = (
+				34FDAAA72CAC61780081FF19 /* walmart cashi */,
+				34FDAAC12CAC617A0081FF19 /* walmart cashiTests */,
+				34FDAACB2CAC617A0081FF19 /* walmart cashiUITests */,
+				34FDAAA62CAC61780081FF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FDAAA62CAC61780081FF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FDAAA52CAC61780081FF19 /* walmart cashi.app */,
+				34FDAABE2CAC617A0081FF19 /* walmart cashiTests.xctest */,
+				34FDAAC82CAC617A0081FF19 /* walmart cashiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FDAAA72CAC61780081FF19 /* walmart cashi */ = {
+			isa = PBXGroup;
+			children = (
+				34FDAAA82CAC61780081FF19 /* AppDelegate.swift */,
+				34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */,
+				34FDAAAC2CAC61780081FF19 /* ViewController.swift */,
+				34FDAAAE2CAC61780081FF19 /* Main.storyboard */,
+				34FDAAB42CAC617A0081FF19 /* Assets.xcassets */,
+				34FDAAB62CAC617A0081FF19 /* LaunchScreen.storyboard */,
+				34FDAAB92CAC617A0081FF19 /* Info.plist */,
+				34FDAAB12CAC61780081FF19 /* walmart_cashi.xcdatamodeld */,
+			);
+			path = "walmart cashi";
+			sourceTree = "<group>";
+		};
+		34FDAAC12CAC617A0081FF19 /* walmart cashiTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FDAAC22CAC617A0081FF19 /* walmart_cashiTests.swift */,
+			);
+			path = "walmart cashiTests";
+			sourceTree = "<group>";
+		};
+		34FDAACB2CAC617A0081FF19 /* walmart cashiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34FDAACC2CAC617A0081FF19 /* walmart_cashiUITests.swift */,
+				34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */,
+			);
+			path = "walmart cashiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FDAAA42CAC61780081FF19 /* walmart cashi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FDAAD22CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashi" */;
+			buildPhases = (
+				34FDAAA12CAC61780081FF19 /* Sources */,
+				34FDAAA22CAC61780081FF19 /* Frameworks */,
+				34FDAAA32CAC61780081FF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "walmart cashi";
+			productName = "walmart cashi";
+			productReference = 34FDAAA52CAC61780081FF19 /* walmart cashi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FDAABD2CAC617A0081FF19 /* walmart cashiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FDAAD52CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashiTests" */;
+			buildPhases = (
+				34FDAABA2CAC617A0081FF19 /* Sources */,
+				34FDAABB2CAC617A0081FF19 /* Frameworks */,
+				34FDAABC2CAC617A0081FF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FDAAC02CAC617A0081FF19 /* PBXTargetDependency */,
+			);
+			name = "walmart cashiTests";
+			productName = "walmart cashiTests";
+			productReference = 34FDAABE2CAC617A0081FF19 /* walmart cashiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34FDAAC72CAC617A0081FF19 /* walmart cashiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FDAAD82CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashiUITests" */;
+			buildPhases = (
+				34FDAAC42CAC617A0081FF19 /* Sources */,
+				34FDAAC52CAC617A0081FF19 /* Frameworks */,
+				34FDAAC62CAC617A0081FF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FDAACA2CAC617A0081FF19 /* PBXTargetDependency */,
+			);
+			name = "walmart cashiUITests";
+			productName = "walmart cashiUITests";
+			productReference = 34FDAAC82CAC617A0081FF19 /* walmart cashiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FDAA9D2CAC61780081FF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					34FDAAA42CAC61780081FF19 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					34FDAABD2CAC617A0081FF19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 34FDAAA42CAC61780081FF19;
+					};
+					34FDAAC72CAC617A0081FF19 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 34FDAAA42CAC61780081FF19;
+					};
+				};
+			};
+			buildConfigurationList = 34FDAAA02CAC61780081FF19 /* Build configuration list for PBXProject "walmart cashi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FDAA9C2CAC61780081FF19;
+			productRefGroup = 34FDAAA62CAC61780081FF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FDAAA42CAC61780081FF19 /* walmart cashi */,
+				34FDAABD2CAC617A0081FF19 /* walmart cashiTests */,
+				34FDAAC72CAC617A0081FF19 /* walmart cashiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FDAAA32CAC61780081FF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FDAAB52CAC617A0081FF19 /* Assets.xcassets in Resources */,
+				34FDAAB82CAC617A0081FF19 /* Base in Resources */,
+				34FDAAB02CAC61780081FF19 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAABC2CAC617A0081FF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAAC62CAC617A0081FF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FDAAA12CAC61780081FF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FDAAAD2CAC61780081FF19 /* ViewController.swift in Sources */,
+				34FDAAB32CAC61780081FF19 /* walmart_cashi.xcdatamodeld in Sources */,
+				34FDAAA92CAC61780081FF19 /* AppDelegate.swift in Sources */,
+				34FDAAAB2CAC61780081FF19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAABA2CAC617A0081FF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FDAAC32CAC617A0081FF19 /* walmart_cashiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FDAAC42CAC617A0081FF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FDAACF2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift in Sources */,
+				34FDAACD2CAC617A0081FF19 /* walmart_cashiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FDAAC02CAC617A0081FF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FDAAA42CAC61780081FF19 /* walmart cashi */;
+			targetProxy = 34FDAABF2CAC617A0081FF19 /* PBXContainerItemProxy */;
+		};
+		34FDAACA2CAC617A0081FF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FDAAA42CAC61780081FF19 /* walmart cashi */;
+			targetProxy = 34FDAAC92CAC617A0081FF19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FDAAAE2CAC61780081FF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FDAAAF2CAC61780081FF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34FDAAB62CAC617A0081FF19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FDAAB72CAC617A0081FF19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FDAAD02CAC617A0081FF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34FDAAD12CAC617A0081FF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FDAAD32CAC617A0081FF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "walmart cashi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34FDAAD42CAC617A0081FF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "walmart cashi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34FDAAD62CAC617A0081FF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walmart cashi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/walmart cashi";
+			};
+			name = Debug;
+		};
+		34FDAAD72CAC617A0081FF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/walmart cashi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/walmart cashi";
+			};
+			name = Release;
+		};
+		34FDAAD92CAC617A0081FF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "walmart cashi";
+			};
+			name = Debug;
+		};
+		34FDAADA2CAC617A0081FF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedroromero.walmart-cashiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "walmart cashi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FDAAA02CAC61780081FF19 /* Build configuration list for PBXProject "walmart cashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FDAAD02CAC617A0081FF19 /* Debug */,
+				34FDAAD12CAC617A0081FF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FDAAD22CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FDAAD32CAC617A0081FF19 /* Debug */,
+				34FDAAD42CAC617A0081FF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FDAAD52CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FDAAD62CAC617A0081FF19 /* Debug */,
+				34FDAAD72CAC617A0081FF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FDAAD82CAC617A0081FF19 /* Build configuration list for PBXNativeTarget "walmart cashiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FDAAD92CAC617A0081FF19 /* Debug */,
+				34FDAADA2CAC617A0081FF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34FDAAB12CAC61780081FF19 /* walmart_cashi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34FDAAB22CAC61780081FF19 /* walmart_cashi.xcdatamodel */,
+			);
+			currentVersion = 34FDAAB22CAC61780081FF19 /* walmart_cashi.xcdatamodel */;
+			path = walmart_cashi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34FDAA9D2CAC61780081FF19 /* Project object */;
+}
