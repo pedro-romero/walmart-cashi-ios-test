@@ -17,6 +17,7 @@
 		34FDAAC32CAC617A0081FF19 /* walmart_cashiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAC22CAC617A0081FF19 /* walmart_cashiTests.swift */; };
 		34FDAACD2CAC617A0081FF19 /* walmart_cashiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAACC2CAC617A0081FF19 /* walmart_cashiUITests.swift */; };
 		34FDAACF2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */; };
+		34FDAADD2CAC61BD0081FF19 /* EvenNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAADC2CAC61BD0081FF19 /* EvenNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		34FDAAC82CAC617A0081FF19 /* walmart cashiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "walmart cashiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FDAACC2CAC617A0081FF19 /* walmart_cashiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_cashiUITests.swift; sourceTree = "<group>"; };
 		34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_cashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34FDAADC2CAC61BD0081FF19 /* EvenNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		34FDAAA72CAC61780081FF19 /* walmart cashi */ = {
 			isa = PBXGroup;
 			children = (
+				34FDAADB2CAC618F0081FF19 /* Exercise1 */,
 				34FDAAA82CAC61780081FF19 /* AppDelegate.swift */,
 				34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */,
 				34FDAAAC2CAC61780081FF19 /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				34FDAACE2CAC617A0081FF19 /* walmart_cashiUITestsLaunchTests.swift */,
 			);
 			path = "walmart cashiUITests";
+			sourceTree = "<group>";
+		};
+		34FDAADB2CAC618F0081FF19 /* Exercise1 */ = {
+			isa = PBXGroup;
+			children = (
+				34FDAADC2CAC61BD0081FF19 /* EvenNumbers.swift */,
+			);
+			path = Exercise1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34FDAAAD2CAC61780081FF19 /* ViewController.swift in Sources */,
+				34FDAADD2CAC61BD0081FF19 /* EvenNumbers.swift in Sources */,
 				34FDAAB32CAC61780081FF19 /* walmart_cashi.xcdatamodeld in Sources */,
 				34FDAAA92CAC61780081FF19 /* AppDelegate.swift in Sources */,
 				34FDAAAB2CAC61780081FF19 /* SceneDelegate.swift in Sources */,
