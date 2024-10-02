@@ -6,5 +6,5 @@
 //
 
 protocol ProductsRepositoryType {
-    func fetchProducts() async throws -> [Product]
+    func fetchProducts() async throws -> [ProductDTO]
 }

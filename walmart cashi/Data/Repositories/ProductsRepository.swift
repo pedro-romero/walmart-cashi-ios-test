@@ -5,8 +5,6 @@
 //  Created by Pedro Romero on 01/10/24.
 //
 
-import Foundation
-
 final class ProductsRepository: ProductsRepositoryType {
     private let productsRemoteDataSorce: ProductsRemoteDataSource
     
@@ -14,7 +12,7 @@ final class ProductsRepository: ProductsRepositoryType {
         self.productsRemoteDataSorce = productsRemoteDataSorce
     }
     
-    func fetchProducts() async throws -> [Product] {
-        return try await productsRemoteDataSorce.fetchProducts().products.map { $0.toDomain() }
+    func fetchProducts() async throws -> [ProductDTO] {
+        return try await productsRemoteDataSorce.fetchProducts().products
     }
 }

@@ -11,7 +11,9 @@ struct ProductsListConfiguration {
     static func build() -> UIViewController {
         let remoteDataSource = ProductsRemoteDataSource()
         let repository = ProductsRepository(productsRemoteDataSorce: remoteDataSource)
-        let useCase = FetchProductsUseCase(remoteRepository: repository)
+        let localDataSource = ProductsLocalDataSource()
+        let localRepository = ProductsLocalRepository(productsLocalDataSorce: localDataSource)
+        let useCase = FetchProductsUseCase(remoteRepository: repository, localRepository: localRepository)
         let interactor = ProductsListInteractor(fetchProductsUseCase: useCase)
         let presenter = ProductsListPresenter(interactor: interactor)
         let view = ProductsListViewController(presenter: presenter)
