@@ -10,6 +10,18 @@
 		34430D112CACC91700B484B0 /* ProductsLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D102CACC91700B484B0 /* ProductsLocalRepository.swift */; };
 		34430D132CACC95500B484B0 /* ProductsLocalRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D122CACC95500B484B0 /* ProductsLocalRepositoryType.swift */; };
 		34430D162CAD03F400B484B0 /* ProductCD+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D152CAD03F400B484B0 /* ProductCD+Mapping.swift */; };
+		34430D192CAD050900B484B0 /* MapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D182CAD050900B484B0 /* MapListViewController.swift */; };
+		34430D1B2CAD051700B484B0 /* MapListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D1A2CAD051700B484B0 /* MapListPresenter.swift */; };
+		34430D1D2CAD052200B484B0 /* MapListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D1C2CAD052200B484B0 /* MapListInteractor.swift */; };
+		34430D1F2CAD053800B484B0 /* MapListConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D1E2CAD053800B484B0 /* MapListConfiguration.swift */; };
+		34430D212CAD054700B484B0 /* MapListTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D202CAD054700B484B0 /* MapListTypes.swift */; };
+		34430D232CAD1DB500B484B0 /* FetchLocationsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D222CAD1DB500B484B0 /* FetchLocationsUseCase.swift */; };
+		34430D252CAD1E1900B484B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D242CAD1E1900B484B0 /* Location.swift */; };
+		34430D272CAD1F5C00B484B0 /* LocationsRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D262CAD1F5C00B484B0 /* LocationsRepositoryType.swift */; };
+		34430D292CAD1FC900B484B0 /* LocationsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D282CAD1FC900B484B0 /* LocationsRepository.swift */; };
+		34430D2B2CAD200B00B484B0 /* LocationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D2A2CAD200B00B484B0 /* LocationDTO.swift */; };
+		34430D2D2CAD20F100B484B0 /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D2C2CAD20F100B484B0 /* LocationRequest.swift */; };
+		34430D2F2CAD212600B484B0 /* LocationsRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34430D2E2CAD212600B484B0 /* LocationsRemoteDataSource.swift */; };
 		34FDAAA92CAC61780081FF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAA82CAC61780081FF19 /* AppDelegate.swift */; };
 		34FDAAAB2CAC61780081FF19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */; };
 		34FDAAB32CAC61780081FF19 /* walmart_cashi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FDAAB12CAC61780081FF19 /* walmart_cashi.xcdatamodeld */; };
@@ -62,6 +74,18 @@
 		34430D102CACC91700B484B0 /* ProductsLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsLocalRepository.swift; sourceTree = "<group>"; };
 		34430D122CACC95500B484B0 /* ProductsLocalRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsLocalRepositoryType.swift; sourceTree = "<group>"; };
 		34430D152CAD03F400B484B0 /* ProductCD+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductCD+Mapping.swift"; sourceTree = "<group>"; };
+		34430D182CAD050900B484B0 /* MapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
+		34430D1A2CAD051700B484B0 /* MapListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListPresenter.swift; sourceTree = "<group>"; };
+		34430D1C2CAD052200B484B0 /* MapListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListInteractor.swift; sourceTree = "<group>"; };
+		34430D1E2CAD053800B484B0 /* MapListConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListConfiguration.swift; sourceTree = "<group>"; };
+		34430D202CAD054700B484B0 /* MapListTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTypes.swift; sourceTree = "<group>"; };
+		34430D222CAD1DB500B484B0 /* FetchLocationsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLocationsUseCase.swift; sourceTree = "<group>"; };
+		34430D242CAD1E1900B484B0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		34430D262CAD1F5C00B484B0 /* LocationsRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsRepositoryType.swift; sourceTree = "<group>"; };
+		34430D282CAD1FC900B484B0 /* LocationsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsRepository.swift; sourceTree = "<group>"; };
+		34430D2A2CAD200B00B484B0 /* LocationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDTO.swift; sourceTree = "<group>"; };
+		34430D2C2CAD20F100B484B0 /* LocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequest.swift; sourceTree = "<group>"; };
+		34430D2E2CAD212600B484B0 /* LocationsRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsRemoteDataSource.swift; sourceTree = "<group>"; };
 		34FDAAA52CAC61780081FF19 /* walmart cashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "walmart cashi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FDAAA82CAC61780081FF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FDAAAA2CAC61780081FF19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +152,18 @@
 				34430D152CAD03F400B484B0 /* ProductCD+Mapping.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		34430D172CAD04E600B484B0 /* MapList */ = {
+			isa = PBXGroup;
+			children = (
+				34430D182CAD050900B484B0 /* MapListViewController.swift */,
+				34430D1A2CAD051700B484B0 /* MapListPresenter.swift */,
+				34430D1C2CAD052200B484B0 /* MapListInteractor.swift */,
+				34430D1E2CAD053800B484B0 /* MapListConfiguration.swift */,
+				34430D202CAD054700B484B0 /* MapListTypes.swift */,
+			);
+			path = MapList;
 			sourceTree = "<group>";
 		};
 		34FDAA9C2CAC61780081FF19 = {
@@ -215,6 +251,7 @@
 		34FDAAE02CAC67970081FF19 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				34430D172CAD04E600B484B0 /* MapList */,
 				34FDAB022CAC7A900081FF19 /* ProductsList */,
 			);
 			path = Presentation;
@@ -246,6 +283,8 @@
 			children = (
 				34FDAAF32CAC71830081FF19 /* ProductsRequest.swift */,
 				34FDAAF12CAC716E0081FF19 /* ProductsRemoteDataSource.swift */,
+				34430D2C2CAD20F100B484B0 /* LocationRequest.swift */,
+				34430D2E2CAD212600B484B0 /* LocationsRemoteDataSource.swift */,
 				34FDAAF02CAC70FB0081FF19 /* DTOs */,
 			);
 			path = RemoteDataSource;
@@ -256,6 +295,7 @@
 			children = (
 				34FDAAFA2CAC74C00081FF19 /* ProductsRepository.swift */,
 				34430D102CACC91700B484B0 /* ProductsLocalRepository.swift */,
+				34430D282CAD1FC900B484B0 /* LocationsRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -264,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				34FDAAF52CAC73010081FF19 /* ProductDTO.swift */,
+				34430D2A2CAD200B00B484B0 /* LocationDTO.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
@@ -272,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				34FDAB002CAC79370081FF19 /* FetchProductsUseCase.swift */,
+				34430D222CAD1DB500B484B0 /* FetchLocationsUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -281,6 +323,7 @@
 			children = (
 				34FDAAFC2CAC759F0081FF19 /* ProductsRepositoryType.swift */,
 				34430D122CACC95500B484B0 /* ProductsLocalRepositoryType.swift */,
+				34430D262CAD1F5C00B484B0 /* LocationsRepositoryType.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -289,6 +332,7 @@
 			isa = PBXGroup;
 			children = (
 				34FDAAFE2CAC75D30081FF19 /* Product.swift */,
+				34430D242CAD1E1900B484B0 /* Location.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -466,26 +510,38 @@
 				34FDAAF42CAC71830081FF19 /* ProductsRequest.swift in Sources */,
 				34FDAAF62CAC73010081FF19 /* ProductDTO.swift in Sources */,
 				34FDAB0B2CAC7C230081FF19 /* ProductsListConfiguration.swift in Sources */,
+				34430D292CAD1FC900B484B0 /* LocationsRepository.swift in Sources */,
 				34FDAB072CAC7BE50081FF19 /* ProductsListPresenter.swift in Sources */,
 				34FDAB322CACC6960081FF19 /* ProductsLocalDataSource.swift in Sources */,
 				34430D132CACC95500B484B0 /* ProductsLocalRepositoryType.swift in Sources */,
 				34FDAB302CACC2B90081FF19 /* CoreDataLocalStorage.swift in Sources */,
+				34430D2F2CAD212600B484B0 /* LocationsRemoteDataSource.swift in Sources */,
 				34FDAAFD2CAC759F0081FF19 /* ProductsRepositoryType.swift in Sources */,
+				34430D272CAD1F5C00B484B0 /* LocationsRepositoryType.swift in Sources */,
 				34FDAB012CAC79370081FF19 /* FetchProductsUseCase.swift in Sources */,
 				34FDAAF22CAC716E0081FF19 /* ProductsRemoteDataSource.swift in Sources */,
+				34430D232CAD1DB500B484B0 /* FetchLocationsUseCase.swift in Sources */,
 				34430D162CAD03F400B484B0 /* ProductCD+Mapping.swift in Sources */,
 				34FDAB102CAC819B0081FF19 /* ProductTableViewCell.swift in Sources */,
 				34FDAADD2CAC61BD0081FF19 /* EvenNumbers.swift in Sources */,
 				34FDAB052CAC7AE80081FF19 /* ProductsListViewController.swift in Sources */,
+				34430D1B2CAD051700B484B0 /* MapListPresenter.swift in Sources */,
 				34FDAAE42CAC68DE0081FF19 /* ApiRequest.swift in Sources */,
+				34430D1D2CAD052200B484B0 /* MapListInteractor.swift in Sources */,
 				34FDAAB32CAC61780081FF19 /* walmart_cashi.xcdatamodeld in Sources */,
+				34430D2D2CAD20F100B484B0 /* LocationRequest.swift in Sources */,
 				34FDAAFF2CAC75D30081FF19 /* Product.swift in Sources */,
 				34FDAAA92CAC61780081FF19 /* AppDelegate.swift in Sources */,
+				34430D252CAD1E1900B484B0 /* Location.swift in Sources */,
 				34FDAAFB2CAC74C00081FF19 /* ProductsRepository.swift in Sources */,
 				34FDAAE82CAC69100081FF19 /* AsyncRepository.swift in Sources */,
+				34430D1F2CAD053800B484B0 /* MapListConfiguration.swift in Sources */,
+				34430D2B2CAD200B00B484B0 /* LocationDTO.swift in Sources */,
 				34FDAAEA2CAC69380081FF19 /* RequestMethod.swift in Sources */,
 				34FDAAAB2CAC61780081FF19 /* SceneDelegate.swift in Sources */,
+				34430D192CAD050900B484B0 /* MapListViewController.swift in Sources */,
 				34430D112CACC91700B484B0 /* ProductsLocalRepository.swift in Sources */,
+				34430D212CAD054700B484B0 /* MapListTypes.swift in Sources */,
 				34FDAB092CAC7BF90081FF19 /* ProductsListInteractor.swift in Sources */,
 				34FDAAEC2CAC697E0081FF19 /* NetworkError.swift in Sources */,
 				34FDAB0D2CAC7C3C0081FF19 /* ProductsListTypes.swift in Sources */,

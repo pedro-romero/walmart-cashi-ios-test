@@ -36,6 +36,14 @@ final class ProductsListViewController: UIViewController {
     }
     
     private func setupUI() {
+        if let navigationController = navigationController {
+            navigationController.tabBarItem.image = UIImage(systemName: "list.clipboard")
+            navigationController.tabBarItem.title = "Products"
+        }
+        navigationItem.title = "Productos"
+        
+        view.backgroundColor = .white
+        
         refreshControl.addTarget(self, action: #selector(refreshControlChange), for: .valueChanged)
         
         productsTableView.refreshControl = refreshControl
